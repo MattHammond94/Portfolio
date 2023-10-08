@@ -7,6 +7,8 @@ import {
 
 /* Pages */
 import Home from '../src/Pages/Home';
+import Projects from '../src/Pages/Projects';
+import NotFound from '../src/Pages/NotFound';
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -19,7 +21,6 @@ const router = createBrowserRouter(
     </>
   )
 )
-
 
 function App() {
   return (
