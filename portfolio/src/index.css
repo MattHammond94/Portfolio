@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Nabataean&family=Oswald:wght@300&family=Roboto+Mono:wght@500&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  background-color: #DADEE2;
+}
+
+h1 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 3rem;
+  background: linear-gradient(to right, rgb(5, 32, 59), rgb(82, 162, 240));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding: 10px;
+}
+
+h2 {
+  font-family: 'Roboto Mono', monospace;
+  letter-spacing: -0.2em;
+  background: linear-gradient(to left, rgb(5, 32, 59), rgb(82, 162, 240));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+img {
+  height: 400px;
+  width: 400px;
+  margin: 10px;
+}
+
+p {
+  font-family: 'Roboto Mono', monospace;
+  color: #0E4C8A;
+}
+
+a {
+  color: #52A2F0;
+}
+
+a:visited {
+  color: #05203B;
+}
+
+.container-1 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: coral;
+}
+
+@media (min-width: 475px) {
+  .container-1 {
+    max-width: 475px;
+  }
+
+  img {
+    height: 400px;
+    width: 400px;
+  }
+}
+
+@media (min-width: 640px) {
+  .container-1 {
+    max-width: 640px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container-1 {
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container-1 {
+    max-width: 1024px;
+  }
+
+  h1 {
+    font-size: 4rem;
+  }
+
+  img {
+    height: 500px;
+    width: 500px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .container-1 {
+    max-width: 1280px;
+  }
+
+  h1 {
+    font-size: 5rem;
+  }
+
+  img {
+    height: 600px;
+    width: 600px;
+  }
+}
+
+/* XXL - Cannot be viewed on my local */
+@media (min-width: 1536px) {
+  .container-1 {
+    max-width: 1536px;
+  }
+
+  h1 {
+    font-size: 5rem;
+  }
+
+  img {
+    height: 600px;
+    width: 600px;
+  }
+}
