@@ -2,9 +2,9 @@ const Home = () => {
 
   return (
     <div className="container-1">
-      <h1>Matt Hammond</h1>
-      <h2>Junior Full-Stack Engineer</h2>
-      <img src="/me.png" />
+      <h1 className="home-title">Matt Hammond</h1>
+      <h2 className="home-sub">Junior Full-Stack Engineer</h2>
+      <img className="home-img" src="/me.png" />
       
       <p>Makers Academy bootcamp graduate currently looking for a junior role.</p>
       <p>To view all my recent projects click <a href="/projects">here</a></p>
