@@ -199,6 +199,81 @@ img {
   }
 }
 
+/* Navbar component */ 
+
+.navbar  {
+  height: 100%;
+  width: 260px;
+  position: fixed;
+  left: -260px;
+  z-index: 10;
+  opacity: 0.9;
+
+  background: linear-gradient(to bottom, rgb(5, 32, 59), rgb(82, 162, 240)); 
+  box-shadow: 0px 2px 4px rgba(166, 145, 123, 0.2);
+
+  transition: left 0.3s;
+  user-select: none;
+}
+
+.navbar.open {
+  left: 0;
+}
+
+.navbar-child {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.navbar-child img {
+  width: 220px;
+  height: 220px;
+  margin-top: 63px;
+  margin-bottom: 18px;
+  align-self: center;
+  background-color: transparent;
+}
+
+.navbar-child h1, .navbar-child p {
+  margin-right: 10px;
+  font-family: 'Roboto Mono', monospace;
+  letter-spacing: -0.1em;
+}
+
+.navbar-child h1 {
+  color: #62B2FF;
+  font-size: 35px;
+}
+
+.icons {
+  font-size: 40px;
+  margin-right: 25px;
+  margin-top: 10px;
+}
+
+/* .navbar-child a:hover {
+
+} */
+
+.navbar-toggler {
+  position: fixed;
+  top: 50px;
+  font-size: 29px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+
+  left: 12px;
+  color: #3A73AA;
+
+  transition: left 0.3s;
+}
+
+.navbar.open .navbar-toggler {
+  left: 260px;
+}
+
 /* Not Found Page */
 .not-found-container {
   width: 100%;

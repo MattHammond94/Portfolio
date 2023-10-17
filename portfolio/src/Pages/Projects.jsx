@@ -11,18 +11,21 @@ const Projects = () => {
   ]
 
   return (
-    <div className="projects-container">
-      {projectInfo.map((project, index) => (
-        <div key={ index }>
-          <a href={project.link}>
-            <div className="img-container" style={{ background: `url(${project.img}) no-repeat center center/cover` }}>
-              <h1>{ project.title }</h1>
-              <p>{ project.description }</p>
-            </div>
-          </a>
-        </div>
-      ))}
-    </div>
+    <>
+      <Navbar />
+      <div className="projects-container">
+        {projectInfo.map((project, index) => (
+          <div key={ index }>
+            <a href={project.link}>
+              <div className="img-container" style={{ background: `url(${project.img}) no-repeat center center/cover` }}>
+                <h1>{ project.title }</h1>
+                <p>{ project.description }</p>
+              </div>
+            </a>
+          </div>
+        ))}
+      </div>
+    </>
   )
 }
 
