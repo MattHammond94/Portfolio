@@ -75,7 +75,7 @@ img {
     font-size: 1.8rem;
   }
   
-  img {
+  .container-1 img {
     height: 350px;
     width: 350px;
     margin: 22px;
@@ -106,7 +106,7 @@ img {
     font-size: 1.7rem;
   }
   
-  img {
+  .container-1 img {
     height: 330px;
     width: 330px;
     margin: 22px;
@@ -183,18 +183,16 @@ img {
 /* Not Found Page */
 .not-found-container {
   width: 100%;
-  height: 500px;
+  height: 600px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-color: #26598D;
 }
 
 .error-icon {
   width: 200px;
   height: 200px;
-  background-color: #26598D;
 }
 
 .not-found-header {
@@ -204,5 +202,18 @@ img {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   padding: 10px;
-  background-color: #DADEE2;
+  letter-spacing: -0.07em;
+}
+
+.not-found-container a {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.5rem;
+  margin-top: 4px;
+  letter-spacing: -0.05em;
+  color: #326392;
+}
+
+.not-found-container a:visited {
+  font-family: 'Oswald', sans-serif;
+  color: #65B1FE;
 }
