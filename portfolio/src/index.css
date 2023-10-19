@@ -42,8 +42,8 @@ body {
 }
 
 img {
-  height: 400px;
-  width: 400px;
+  height: 410px;
+  width: 410px;
   transition: .5s;
   background-color: #DADEE2;
   margin-bottom: 17px;
@@ -78,13 +78,14 @@ img {
   
   .container-1 h2 {
     font-size: 1.8rem;
+    margin-bottom: 0px;
   }
   
   .container-1 img {
-    height: 350px;
-    width: 350px;
-    margin: 15px;
-    margin-top: 0px;
+    height: 370px;
+    width: 370px;
+    margin-top: 15px;
+    margin-bottom: 15px;
   }
 
   .container-1 .first-p {
@@ -104,25 +105,26 @@ img {
 
 @media (max-width: 420px) {
   .container-1 h1 {
-    font-size: 3rem;
+    font-size: 3.2rem;
     padding: 10px;
-    margin-top: 15px;
+    margin-top: 17px;
   }
   
   .container-1 h2 {
-    font-size: 1.7rem;
+    font-size: 1.9rem;
   }
   
   .container-1 img {
-    height: 330px;
-    width: 330px;
-    margin-top: 10px;
+    height: 340px;
+    width: 340px;
+    margin-top: 18px;
+    margin-bottom: 18px;
   }
   
   .container-1 p {
-    margin-top: 3px;
+    margin-top: 5px;
     text-align: center;
-    font-size: 13px;
+    font-size: 15px;
   }
   
   .container-1 .first-p {
@@ -148,7 +150,7 @@ img {
   transition: .5s;
   height: 600px;
   width: 500px;
-  margin-top: 10px;
+  margin-top: 15px;
 
   display: flex;
   justify-content: center;
@@ -190,9 +192,13 @@ img {
   transition: .5s;
 }
 
-@media (max-width: 565px) {
+.projects-container > div:last-child {
+  margin-bottom: 20px;
+}
+
+@media (max-width: 950px) {
   .img-container {
-    width: 390px;
+    width: 400px;
     height: 500px;
   }
 }
@@ -334,12 +340,6 @@ img {
     color: #7ABBFE;
   }
 
-  .items-container {
-    position: absolute;
-    top: 0px;
-    right: 0px;
-  }
-
   .icons-container {
     flex-direction: row;
     position: absolute;
@@ -350,6 +350,10 @@ img {
     font-size: 40px;
     margin: 0px;
     margin-right: 15px;
+  }
+
+  .home-icon {
+    margin-right: 24px;
   }
   
   .github-icon {
