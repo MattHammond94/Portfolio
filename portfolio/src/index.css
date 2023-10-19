@@ -202,7 +202,7 @@ img {
   }
 }
 
-/* Navbar component */ 
+/* Navbar component */
 
 .navbar {
   height: 100%;
@@ -318,7 +318,7 @@ img {
     display: none;
   }
 
-  .navbar-child h1, p {
+  .navbar-child h1, .navbar-child p {
     align-self: flex-start;
     margin-left: 22px;
   }
@@ -372,7 +372,6 @@ img {
     margin-right: 10px;
   }
 }
-
 
 /* Not Found Page */
 .not-found-container {
