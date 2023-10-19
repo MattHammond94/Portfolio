@@ -12,7 +12,7 @@ const Projects = () => {
 
   return (
     <>
-      <Navbar />
+      <Navbar className="navbar" />
       <div className="projects-container">
         {projectInfo.map((project, index) => (
           <div key={ index }>
