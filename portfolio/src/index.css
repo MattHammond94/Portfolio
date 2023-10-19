@@ -173,7 +173,9 @@ img {
   font-family: 'Oswald', sans-serif;
 }
 
-.img-container:hover {
+.img-container:hover,
+.img-container:active,
+.img-container:focus {
   box-shadow: inset 500px 0 0 0 #26598D;
   transition: .5s;
 }
@@ -195,7 +197,7 @@ img {
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 420px) {
   .img-container {
     width: 290px;
     height: 400px;
@@ -359,17 +361,30 @@ img {
   }
 }
 
-@media (max-width: 405px) {
+@media (max-width: 460px) {
   .icons-container {
-    flex-direction: row;
+    flex-direction: column;
     position: absolute;
-    top: 60px;
+    top: 20px;
+    margin-right: 20px;
   }
 
   .linked-icon, .github-icon, .home-icon {
-    font-size: 23px;
-    margin: 0px;
+    font-size: 25px;
+    margin-top: 5px;
     margin-right: 10px;
+  }
+
+  .navbar-child h1, .navbar-child p {
+    margin-left: 15px;
+  }
+
+  .navbar-child h1 {
+    margin-top: 25px;
+  }
+
+  .navbar-child p {
+    margin-top: 4px;
   }
 }
 
