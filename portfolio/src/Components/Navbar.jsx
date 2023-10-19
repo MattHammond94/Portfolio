@@ -19,10 +19,10 @@ const Navbar = () => {
         <h1>Matt Hammond</h1>
         <p>Junior Software Developer</p>
         <div className="icons-container">
-          <a className="github-icon" href="https://github.com/MattHammond94" target="_blank">
+          <a className="github-icon" href="https://github.com/MattHammond94" target="_blank" rel="noreferrer">
             <BsGithub />
           </a>
-          <a className="linked-icon" href="https://www.linkedin.com/in/matt-hammond-44444444f/" target="_blank">
+          <a className="linked-icon" href="https://www.linkedin.com/in/matt-hammond-44444444f/" target="_blank" rel="noreferrer">
             <BsLinkedin />
           </a>
           <a className="home-icon" href="/">
