@@ -6,8 +6,6 @@ import { useNavigate } from "react-router-dom";
 const Navbar = () => {
   const[isOpen, setIsOpen] = useState(false);
 
-  const navigate = useNavigate();
-
   const toggleNav = () => {
     const currentState = isOpen
     return currentState ? setIsOpen(false) : setIsOpen(true)
@@ -15,7 +13,7 @@ const Navbar = () => {
 
   return (
     <div className={`navbar ${isOpen ? 'open' : ''}`}>
-      <button className="navbar-toggler" onClick={ toggleNav }>&#9776;</button>
+      { isOpen ? <button className="navbar-toggler" onClick={ toggleNav }>&#5130;</button> : <button className="navbar-toggler" onClick={ toggleNav }>&#5125;</button> }
       <nav className="navbar-child">
         <img src="/me.png" alt="Photograph of the developer" />
         <h1>Matt Hammond</h1>
@@ -23,8 +21,12 @@ const Navbar = () => {
         <a href="https://github.com/MattHammond94">
           <BsGithub className="icons"/>
         </a>
-        <BsLinkedin className="icons"/>
-        <IoHomeSharp className="icons"/>
+        <a href="https://www.linkedin.com/in/matt-hammond-44444444f/">
+          <BsLinkedin className="icons"/>
+        </a>
+        <a href="/">
+          <IoHomeSharp className="icons"/>
+        </a>
       </nav>
     </div>
   )
