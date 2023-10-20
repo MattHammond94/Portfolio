@@ -3,9 +3,9 @@ import Navbar from "../Components/Navbar";
 const Projects = () => {
 
   const projectInfo = [
-    { title: "Phobos", description: "An educational space themed web app built using React.", img: "/phobos.png", link: "" },
-    { title: "Java-Gram", description: "An instagram clone built using the MERN stack.", img: "/Insta.jpg", link: "" },
-    { title: "Fours Garden", description: "A portfolio website to showcase an artists work - Built using React.", img: "/fours-garden.jpg", link: "" },
+    { title: "Phobos", description: "An educational space themed web app built using React.", img: "/phobos.png", link: "https://github.com/MattHammond94/Phobos" },
+    { title: "Java-Gram", description: "An instagram clone built using the MERN stack.", img: "/Insta.jpg", link: "https://github.com/MattHammond94/Java-Gram" },
+    { title: "Fours Garden", description: "A portfolio website to showcase an artists work - Built using React.", img: "/fours-garden.jpg", link: "https://github.com/MattHammond94/Fours-Garden" },
     { title: "Flock", description: "A multiplatform mobile app built using React Native.", img: "/flock.png", link: "https://github.com/ev-th/Flock" },
     { title: "The Trelloship Of The String", description: "A LOTR themed facebook clone built using the MERN stack.", img: "/trelloship-landing-page.png", link: "https://github.com/georgebarrett/trelloship_of_the_string/tree/main" }
   ]
