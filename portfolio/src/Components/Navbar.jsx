@@ -1,7 +1,6 @@
 import { BsGithub, BsLinkedin } from "react-icons/bs";
 import { IoHomeSharp } from "react-icons/io5";
 import { useState } from "react";
-import { useNavigate } from "react-router-dom";
 
 const Navbar = () => {
   const[isOpen, setIsOpen] = useState(false);
