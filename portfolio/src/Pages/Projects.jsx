@@ -16,7 +16,7 @@ const Projects = () => {
       <div className="projects-container">
         {projectInfo.map((project, index) => (
           <div key={ index }>
-            <a href={project.link}>
+            <a target="_blank" rel="noreferrer" href={project.link}>
               <div className="img-container" style={{ background: `url(${project.img}) no-repeat center center/cover` }}>
                 <h1>{ project.title }</h1>
                 <p>{ project.description }</p>
