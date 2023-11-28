@@ -52,20 +52,10 @@ img {
   margin-bottom: 20px;
 }
 
-.container-1 p {
-  margin-top: 3px;
-  font-family: 'Roboto Mono', monospace;
-  color: #0C3D6F;
-}
-
-.container-1 .first-p {
-  margin-top: 6px;
-  text-align: center;
-}
-
 .container-1 a {
   font-family: 'Roboto Mono', monospace;
-  color: #52A2F0;
+  color: #0C3D6F;
+  font-size: 18px;
 }
 
 .container-1 a:visited {
@@ -89,12 +79,6 @@ img {
     margin-top: 25px;
     margin-bottom: 25px;
   }
-
-  .container-1 p {
-    margin: 3px;
-    font-size: 15px;
-
-  }
 }
 
 @media (max-width: 664px) {
@@ -114,20 +98,6 @@ img {
     margin-top: 15px;
     margin-bottom: 15px;
   }
-
-  .container-1 .first-p {
-    margin-left: 10px;
-    margin-right: 10px;
-  }
-  
-  .container-1 p {
-    margin-top: 3px;
-    font-size: 15px;
-  }
-  
-  .container-1 .first-p {
-    margin-top: 6px;
-  }
 }
 
 @media (max-width: 435px) {
@@ -146,16 +116,6 @@ img {
     width: 340px;
     margin-top: 30px;
     margin-bottom: 30px;
-  }
-  
-  .container-1 p {
-    margin-top: 5px;
-    text-align: center;
-    font-size: 15px;
-  }
-  
-  .container-1 .first-p {
-    margin-top: 6px;
   }
 }
 
@@ -208,10 +168,6 @@ img {
     width: 250px;
     margin-top: 20px;
     margin-bottom: 20px;
-  }
-
-  .container-1 p {
-    font-size: 10px;
   }
 }
 
@@ -331,7 +287,7 @@ img {
   left: -260px;
   z-index: 2;
 
-  background: linear-gradient(to bottom, rgb(5, 32, 59, 0.85), rgb(82, 162, 240, 0.85));
+  background: linear-gradient(to bottom, rgb(5, 32, 59, 0.83), rgb(82, 162, 240, 0.83));
   transition: left 0.5s;
   user-select: none;
 }
@@ -376,6 +332,7 @@ img {
   margin-right: 25px;
   margin-top: 10px;
   color: #05203B;
+  opacity: 0.9;
 }
 
 .icons-container {
@@ -418,7 +375,7 @@ img {
     position: fixed;
     top: 0;
     left: 0;
-    background: linear-gradient(to right, rgb(5, 32, 59), rgb(82, 162, 240));
+    background: linear-gradient(to right, rgba(5, 32, 59, 0.93), rgba(82, 162, 240, 0.93));
   }
   
   .navbar.open {
@@ -444,11 +401,12 @@ img {
   .navbar-child h1 {
     margin-top: 22px;
     text-decoration: underline;
+    color: #79b9f9;
   }
 
   .navbar-child p {
     margin-top: 10px;
-    color: #7ABBFE;
+    color: #79b9f9;
   }
 
   .icons-container {
